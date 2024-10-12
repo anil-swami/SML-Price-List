@@ -19,7 +19,7 @@ flatpickr("#date", {
     // Delay the capture to ensure content is fully rendered
     setTimeout(() => {
       html2canvas(document.getElementById('price-list'), {
-        scale: 3,
+        scale: 2,
         useCORS: true,
         // Adjust these parameters as needed
         allowTaint: true,
