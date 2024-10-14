@@ -3,7 +3,7 @@ body {
     font-family:Poppins, 'Times New Roman', Times, serif;
   }
   .tablecontainer{
-    background-color: #e60000;
+    background-color: rgba(230, 0, 0, 0.788);
     padding: 16px;
     border: 1px solid transparent;
     border-radius: 6px;
@@ -22,15 +22,19 @@ body {
   }
   
   h2 {
-    
     margin-top: 6px;
     padding: 4px;
-    background-color: #ffdddd;
+    background-color: rgba(230, 0, 0, 0.788);
     font-size: 20px;
     text-align: center;
-    color: #e60000;
+    color: #fff;
     font-weight: bold;
-  }
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   .statedate {
     display: flex;
     justify-content: space-between;
@@ -39,7 +43,6 @@ body {
   }
   table {
     width: 100%;
-    background-color: #e60000;
   }
   table, th, td {
     border: 1px solid #fff;
@@ -62,6 +65,9 @@ body {
     padding: 5px;
     box-sizing: border-box;
   }
+  tbody td{
+    width: 50%;
+  }
   .rupee-symbol {
     font-size: 18px;
     margin-left: 5px;
@@ -72,6 +78,10 @@ outline: 0px solid transparent;
   #downloadBtn {
     display: block;
     margin: 20px auto;
+    width: 100%;
+    background-color: #e60000;
+    outline: none;
+    border: none;
   }
   .header, .footer {
     display: flex;
